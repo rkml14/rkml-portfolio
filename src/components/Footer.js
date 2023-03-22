@@ -1,13 +1,19 @@
-import React from 'react';
-
+import React from "react";
 
 export default function Footer() {
+   const year = new Date().getFullYear();
+    return(
+        <div>
 
-    return (
-<footer> 
-{/* links to github, linkedin,  stack overflow */}
-</footer>
-    
-        );
+            
+            {`Copyright @ Rebecca Lawrence ${year}`}
+        </div>
+    )
+   
+};
 
-}
+
+
+
+
+
