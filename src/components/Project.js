@@ -8,7 +8,7 @@ export default function ProjectCard({
       
         <div className="card portfolio-card" >
             <div className="img-container"> 
-                <img width="300px" height="300px" alt={project.name} src={process.env.PUBLIC_URL+project.image}/>
+                <img width="300px" height="300px" alt={project.name} src={`${process.env.PUBLIC_URL}/${project.image}`}/>
             </div>
             <div className="content">
                 <ul> 
@@ -16,7 +16,8 @@ export default function ProjectCard({
                         <strong>Name:</strong> {project.name}
                     </li>
                     <li>
-                        <a href={project.link} target="_blank" ><strong>Link: </strong></a>
+                        <a href={project.deployedlink} target="_blank" ><strong>Deployed </strong></a>
+                        <a href={project.githublink} target="_blank" ><strong>GitHub </strong></a>
                     </li>
                     <li>
                         <strong>Description</strong> {project.description}
