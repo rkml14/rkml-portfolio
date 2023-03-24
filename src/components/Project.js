@@ -1,10 +1,29 @@
-import React from 'react';
+import React from 'react'; 
 
-export default function Project() {
-    return (
 
-        // Will need this 6 times, each one with a link to both deployed applications and corresponding Github repo  
-    
-        <div></div>
-        );
+export default function ProjectCard({
+    project 
+}){
+    return(
+      
+        <div className="card portfolio-card" >
+            <div className="img-container"> 
+                <img width="300px" height="300px" alt={project.name} src={process.env.PUBLIC_URL+project.image}/>
+            </div>
+            <div className="content">
+                <ul> 
+                    <li>
+                        <strong>Name:</strong> {project.name}
+                    </li>
+                    <li>
+                        <a href={project.link} target="_blank" ><strong>Link: </strong></a>
+                    </li>
+                    <li>
+                        <strong>Description</strong> {project.description}
+                    </li>
+                </ul>
+            </div>
+        </div>
+      
+    )
 }

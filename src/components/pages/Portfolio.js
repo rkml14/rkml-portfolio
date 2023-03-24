@@ -1,14 +1,20 @@
 import React from 'react';
+import Projects from '../porfolioproject.json';
+import ProjectCard from '../Project.js'
 
+export default function Portfolio(){
+    console.log(Projects);
+    return (
+        <div>
+            <p>Portfolio</p>
+       <div className="card-wrap">
 
-export default function Portfolio() {
-
-  
-  return (
-  <div>
-    <p>My Portfolio brings all the boys to the yard</p>
-  </div>
-//   6 developer apps with links to deployed apps 
-  )
+       {
+        Projects.map(project => {
+            return (<ProjectCard project={project}/>)
+        })
+       } 
+       </div>
+       </div>
+    )
 }
-

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1, 
+        "name": "Friendly Fire",
+        "image": "/images/boliviaintelligente.jpg", 
+        "link": "https://project-friendly-fire.herokuapp.com/", 
+        "description": "Track your Valorant stats!"
+    },
+    {
+        "id": 2, 
+        "name": "Just Another Text Editor",
+        "image": "assets/images/boliviaintelligente.jpg", 
+        "link": "https://rkml-just-another-text-editor.herokuapp.com/", 
+        "description": "Keep track of your notes!"
+    }, 
+    {
+        "id": 3, 
+        "name": "10 Things To Do In Toronto",
+        "image": "assets/images/boliviaintelligente.jpg", 
+        "link": "https://rkml14.github.io/10-Things-To-Do-In-Toronto/", 
+        "description": "Find something to do in Toronto this weekend!"
+    }, 
+    {
+        "id": 4, 
+        "name": "Social Network API",
+        "image": "assets/images/boliviaintelligente.jpg", 
+        "link": "https://github.com/rkml14/18-Social-Network", 
+        "description": "Backend for your new social network!"
+    },
+    {
+        "id": 5, 
+        "name": "Professional README Generator",
+        "image": "assets/images/boliviaintelligente.jpg", 
+        "link": "https://github.com/rkml14/09-Professional-README-Generator", 
+        "description": "Make your README.md file in a snap!"
+    },
+    {
+        "id": 6, 
+        "name": "Lawrence Industries Employee Tracker",
+        "image": "assets/images/boliviaintelligente.jpg", 
+        "link": "https://github.com/rkml14/12-Employee-Tracker", 
+        "description": "Keep your Human Resources department organized!"
+    }
+]
