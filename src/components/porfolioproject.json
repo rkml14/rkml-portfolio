@@ -2,7 +2,7 @@
     {
         "id": 1, 
         "name": "Friendly Fire",
-        "image": "/images/boliviaintelligente.jpg", 
+        "image": "./public/assets/images/Friendly-fire.png", 
         "link": "https://project-friendly-fire.herokuapp.com/", 
         "description": "Track your Valorant stats!"
     },

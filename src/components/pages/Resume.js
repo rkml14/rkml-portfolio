@@ -4,8 +4,9 @@ import React from 'react';
 function Resume() {
 
   return (
-    <div>
-      <p>it's pronouned resumé</p>
+    <div className='resume'>
+      <h1>Resume</h1>
+      <a href="./public/Rebecca-Lawrence-resume" download="Rebecca-Lawrence-resume">My Resume</a>
     </div>
 
   )
