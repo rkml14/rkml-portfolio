@@ -11,36 +11,40 @@
         "id": 2, 
         "name": "Just Another Text Editor",
         "image": "images/portfolio-images/jate.png", 
-        "link": "https://rkml-just-another-text-editor.herokuapp.com/", 
-        "description": "Keep track of your notes!"
+        "deployedlink": "https://rkml-just-another-text-editor.herokuapp.com/",
+        "githublink": "https://github.com/rkml14/19-Just-Another-Text-Editor", 
+        "description": "Yet another note tracking application!"
     }, 
     {
         "id": 3, 
         "name": "10 Things To Do In Toronto",
         "image": "images/portfolio-images/10-things.png", 
-        "link": "https://rkml14.github.io/10-Things-To-Do-In-Toronto/", 
+        "deployedlink": "https://rkml14.github.io/10-Things-To-Do-In-Toronto/", 
+        "githublink": "https://github.com/rkml14/10-Things-To-Do-In-Torontor", 
         "description": "Find something to do in Toronto this weekend!"
     }, 
     {
         "id": 4, 
         "name": "Social Network API",
         "image": "images/portfolio-images/social-network.png", 
-        "link": "https://github.com/rkml14/18-Social-Network", 
+        "deployedlink": "https://github.com/rkml14/18-Social-Network", 
+        "githublink": "https://github.com/rkml14/18-Social-Network", 
         "description": "Backend for your new social network!"
     },
     {
         "id": 5, 
         "name": "Professional README Generator",
         "image": "images/portfolio-images/readme-generator.png", 
-        "link": "https://github.com/rkml14/09-Professional-README-Generator", 
+        "deployedlink": "https://github.com/rkml14/09-Professional-README-Generator",
+        "githublink": "https://github.com/rkml14/09-Professional-README-Generator",  
         "description": "Make your README.md file in a snap!"
     },
     {
         "id": 6, 
         "name": "Lawrence Industries Employee Tracker",
         "image": "images/portfolio-images/employee-tracker.png", 
-        "link": "https://github.com/rkml14/12-Employee-Tracker", 
-
+        "deployedlink": "https://github.com/rkml14/12-Employee-Tracker", 
+        "githublink": "https://github.com/rkml14/12-Employee-Tracker", 
         "description": "Keep your Human Resources department organized!"
     }
 ]
