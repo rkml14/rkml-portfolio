@@ -1,103 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif; */
   }
-  
-  body {
-    background-color: whitesmoke;
-  }
-  
+
+    
+   /* Header styling*/
   .header-bg{
-    background-color: #61DAFB !important;
-    color: azure !important;
+    background-color: #00241B !important;
+    color: #D9D9D9 !important;
   }
   
-  
-  h1 {
-    margin: 32px 0;
-    color: #fff;
-    font-size: 24px;
+  .name-title{
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #D9D9D9;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
   }
+
+.portfolio-container{
+  background-color: #D9D9D9;
+}
+  /* Navtabs styling*/
   
-  h3 {
-    margin: auto;
-    color: rgb(66, 171, 231);
-    font-size: 20px;
-  }
-  
-  /* Dropdown menu */
-  
-  /* Dropdown Button */
-  .dropbtn {
-    background-color: #ec5700;
-    border-radius: 4px;
-    width: 75px;
-    color: white;
-    padding: 16px;
-    margin: 10px;
-    /* font-size: 16px; */
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 215px;
-    border-radius: 4px;
-    padding: 16px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content p {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content p:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color: #5d0cff;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .App {
-    font-family: sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  footer {
-    background-color: gray;
+.nav-tabs{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+
+}
+
+.nav-item:hover {
+background-color: #3C6E71;
+
+}
+
+/* About Me Styling*/
+
+/* Contact Me Styling*/
+
+/* Resume Styling*/
+
+/* Portfolio Styling */
+
+/*Project Component Styling */
+
+/* Footer styling */
+
+  .footer {
+    color: #D9D9D9;
+    background-color: #00241B;
     text-align: center;
     margin-top: auto;
     padding: 8px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
   }
+
+  .social-logos {
+    /* display: flex; */
+    /* justify-content: space-around; */
+  }
+
+.copyright {
+  padding-top: 25px;
+}
+  
