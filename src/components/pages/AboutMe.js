@@ -5,7 +5,10 @@ export default function AboutMe() {
   return (
     <div className="about-me">
     <div>
-    <img src={require('../images/headshot/rkml.png')} alt="Rebecca-with-sheep" />
+    <img src={require('../../images/headshot/rkml.png')} alt="Rebecca-with-sheep" />
+
+
+
     </div>
     <div className="aboutme">
       <h1>About Me</h1>
@@ -13,7 +16,7 @@ export default function AboutMe() {
     </div>
 </div>
   )
-  //recent photo/avatar & bio
+
 }
 
 

@@ -35,8 +35,11 @@ font-family: Montserrat, Arial, Helvetica, sans-serif;
 
 .nav-item:hover {
 background-color: #3C6E71;
-
 }
+
+.nav-item:active {
+  background-color: #D9D9D9;
+  }
 
 /* About Me Styling*/
 
@@ -47,6 +50,11 @@ background-color: #3C6E71;
 /* Portfolio Styling */
 
 /*Project Component Styling */
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* Footer styling */
 
@@ -57,14 +65,24 @@ background-color: #3C6E71;
     margin-top: auto;
     padding: 8px;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 
   .social-logos {
-    /* display: flex; */
-    /* justify-content: space-around; */
+    justify-content: space-between;
+  }
+
+  .connection {
+    padding-top: 1rem;
+    justify-content: right;
   }
 
 .copyright {
-  padding-top: 25px;
+  padding-top: 1rem;
 }
   

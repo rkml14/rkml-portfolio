@@ -14,7 +14,7 @@ export default function Footer() {
                 <a href="https://www.instagram.com/bexknitting/" target="_blank"><img src={require('../images/social-media-icons/instagram.png')} alt="Instagram" /></a>
             </div>
             <div className="copyright">
-                {`Copyright @ ${year} Rebecca Lawrence `}
+                {`© ${year} Rebecca Lawrence `}
             </div>
         </footer>
     )

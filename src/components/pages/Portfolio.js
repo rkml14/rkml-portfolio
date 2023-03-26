@@ -6,7 +6,7 @@ export default function Portfolio(){
     console.log(Projects);
     return (
         <div>
-            <p>Portfolio</p>
+            <p>Some examples of my portfolio work:</p>
        <div className="card-wrap">
 
        {
