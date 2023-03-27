@@ -5,7 +5,7 @@ function Resume() {
 
   return (
     <div className='resume'>
-      <h1>Resume</h1>
+      <h2 className="title-lines">Resume</h2>
       <a href={`${process.env.PUBLIC_URL}/Rebecca-Lawrence-resume.pdf`} download="Rebecca-Lawrence-resume">My Resume</a>
     </div>
 

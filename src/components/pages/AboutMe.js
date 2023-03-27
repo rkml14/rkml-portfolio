@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div className="about-me">
       <div className='my-name'>
-        <h1>About Me</h1>
+        <h2 className='title-lines'>About Me</h2>
       </div>
       <div className="image">
         <img className="headshot" src={require('../../images/headshot/rkml.png')} alt="Rebecca-with-sheep" />

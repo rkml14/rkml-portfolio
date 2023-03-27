@@ -48,7 +48,7 @@ export default function ContactMe() {
 
   return (
     <div>
-      <p>Contact Me</p>
+      <h2 className="title-lines">Contact Me</h2>
       {errorMessage && (
         <div>
           <Alert key={'info'} variant={'info'}>
