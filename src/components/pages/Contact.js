@@ -83,7 +83,15 @@ export default function ContactMe() {
           placeholder="message"
         />
         <div className='submit'>
-          <Button bsClass="custom-btn" onClick={handleFormSubmit}>Submit</Button>{' '}
+          <style type="text/css">
+            {`
+            .btn-custom {
+             background-color: #3C6E71;
+            color: #white;
+             }
+           `}
+          </style>
+          <Button variant="custom" onClick={handleFormSubmit}>Submit</Button>{' '}
         </div>
       </div>
     </div>
