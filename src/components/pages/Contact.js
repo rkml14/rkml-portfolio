@@ -83,7 +83,7 @@ export default function ContactMe() {
           placeholder="message"
         />
         <div className='submit'>
-          <Button className="buttons" variant="info" onClick={handleFormSubmit}>Submit</Button>{' '}
+          <Button bsClass="custom-btn" onClick={handleFormSubmit}>Submit</Button>{' '}
         </div>
       </div>
     </div>
