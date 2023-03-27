@@ -94,17 +94,18 @@
   align-self: center;
 }
 
-/* Button styling*/
-.custom-btn {
-  background-color: purple;
-  color: #353535;
-}
-
 /* Resume Styling*/
-
-
-/* Portfolio Styling */
-
+.prof-title {
+  padding-top: 2%;
+  font-family: Alkatra, Arial, Helvetica, sans-serif;
+  padding-left: 5%;
+}
+.resume-info {
+  text-align: center;
+}
+.prof-list {
+  padding-left: 10%;
+}
 
 /*Project Component Styling */
 .card-wrap {
