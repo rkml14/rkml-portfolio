@@ -30,7 +30,7 @@
   
 .nav-tabs{
 font-family: Montserrat, Arial, Helvetica, sans-serif;
-
+color: #353535;
 }
 
 .nav-item:hover {
@@ -40,6 +40,10 @@ background-color: #3C6E71;
 .nav-item:active {
   background-color: #D9D9D9;
   }
+
+#tabs:focus {
+  background-color: #D9D9D9
+}  
 
 /* About Me Styling*/
 
@@ -63,6 +67,9 @@ background-color: #3C6E71;
 .about-text {
   margin-top: 1rem;
   margin-left: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
 }
 /* Contact Me Styling*/
 
