@@ -5,7 +5,7 @@ import ProjectCard from '../Project.js'
 export default function Portfolio(){
     console.log(Projects);
     return (
-        <div>
+        <div className="portfolio-info">
             <p>Some examples of my portfolio work:</p>
        <div className="card-wrap">
 

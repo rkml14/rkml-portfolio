@@ -1,13 +1,12 @@
 import React from 'react'; 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import '../styles/Project.css';
 
 export default function ProjectCard({project})
 {
   return (
     <div className="project-cards">  
-    <Card style={{ width: '18rem' }} className="card portfolio-card">
+    <Card style={{ width: '18rem' } } className="portfolio-card">
       <Card.Img variant="top" className="img-container" alt={project.name} src={`${process.env.PUBLIC_URL}/${project.image}`} />
       <Card.Body>
         <Card.Title>{project.name}</Card.Title>
