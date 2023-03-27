@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 
 
 export default function Resume() {
-  const url = 'https://docs.google.com/document/d/1HcxOXHqPnS6Ly8whaHpX_rrkNCJcvBw6Dm7GElcG3v8/edit'
-
   const [resume] = useState({
     frontEnd: [
       'HTML',
