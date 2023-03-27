@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
@@ -48,37 +47,45 @@ export default function ContactMe() {
 
   return (
     <div>
-      <h2 className="title-lines">Contact Me</h2>
-      {errorMessage && (
-        <div>
-          <Alert key={'info'} variant={'info'}>
-            {errorMessage}
-          </Alert>
-        </div>
+      <h2 className='title-lines'> Contact Me</h2>
+      <div className='card contact-card'>
+        <p></p>
+        {errorMessage && (
+          <div>
+            <Alert key={'info'} variant={'info'}>
+              {errorMessage}
+            </Alert>
+          </div>
 
-      )}
-      <input
-        value={email}
-        name="email"
-        onChange={handleInputChange}
-        type="email"
-        placeholder="email"
-      />
-      <input
-        value={name}
-        name="name"
-        onChange={handleInputChange}
-        type="text"
-        placeholder="name"
-      />
-      <input
-        value={message}
-        name="message"
-        onChange={handleInputChange}
-        type="message"
-        placeholder="message"
-      />
-      <Button variant="info" onClick={handleFormSubmit}>Submit</Button>{' '}
+        )}
+        <input
+          className='contact-inputs'
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="email"
+        />
+        <input
+          className='contact-inputs'
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="name"
+        />
+        <input
+          className='contact-inputs'
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="message"
+          placeholder="message"
+        />
+        <div className='submit'>
+          <Button className="buttons" variant="info" onClick={handleFormSubmit}>Submit</Button>{' '}
+        </div>
+      </div>
     </div>
   )
 }
